@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: "Keepon Truckin";
+    src: url(KeeponTruckin.ttf) format('truetype');
+}
+
+body {
+    background-repeat: no-repeat;
+    background: 100%;
+background-image: url(./imagenes/fondoelegante.png);
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: snow;
+}
+
+.menu {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 40%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #ef8354;
+    margin: autos;
+}
+
+h2{
+    color: snow;
+}
+
+.links{
+    font-size: 3rem;
+    display: block;
+color: snow;
+width: 20%;
+}
+
+.links:hover{
+    color: #ef8354;
+}
+
+div a{
+    font-size: 3rem;
+    display: block;
+color: snow;
+width: 40%;
+margin: 0.5rem;
+}
+
+div h2{
+    margin: 1rem;
+}
+
+    article{
+        display: inline;
+    }
+
+    div{
+        border: solid;
+        color: snow;
+        margin: 1rem;
+    }
