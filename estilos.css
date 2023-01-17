@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "Keepon Truckin";
+    src: url(KeeponTruckin.ttf) format('truetype');
+}
+
+body{
+    background: 100%;
+  
+    background-image: url(/imagenes/fondoelegante.png);
+}
+
+h1{
+    font-family: "Keepon Truckin";
+    color: snow;
+}
+
+.menu {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 35px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #ef8354;
+    margin: auto;
+}
+
+h2{
+    color: snow;
+    text-align: center;
+    font-size: 50px;
+}
+
+.position-presentation{
+    border: none;
+    height: auto;
+    position: relative;
+}
+
+.position-presentation img{
+    display: inline-block;
+    margin: 0.5rem 3.5rem;
+    position: relative;
+    border-radius: 900px;
+}
+
+.inicio{
+    background-image: url(./imagenes/fondoelegante2.png);
+} 
+
+/*-------------------------------------------------------------------------
+SECTOR
+DE
+PRECIOS
+-----------------------------------------------------------------------------*/
+
+img{
+    border-radius: 100px
+}
+
+.position-precios{
+    text-align: center;
+    position: relative;
+width: 40%;
+margin: 2rem 5rem;
+display: inline-block;
+height: auto;
+}
+
+
+.links{
+    font-size: 3rem;
+    display: block;
+color: snow;
+width: 20%;
+}
+
+.links:hover{
+    color: #ef8354;
+}
+
+div a{
+    font-size: 3rem;
+    display: block;
+color: snow;
+width: 55%;
+margin: auto;
+text-align: center;
+margin-bottom: 1rem;
+}
+
+div a:hover{
+    color: #ef8354;
+}
+
+
+div h2{
+    margin: 1rem;
+    font-size: 50PX;
+}
+
+
+    div{
+        border: solid;
+        color: snow;
+        margin: 1rem;
+        border-radius: 100px;
+    }
+
+    /*-----------------------------------------------------------------------------
+    SECTOR 
+    DE 
+    ANTES Y DESPUES
+    ------------------------------------------------------------------------------*/
+
+.ayd{
+    text-align: center;
+    height: auto;
+    min-height: 215rem;
+    
+}
+
+.ayd h2{
+    font-size: 60px;
+}
+
+.ayd img{
+    display: inline-block;
+    max-width: 100%; /* establece el ancho máximo en el 100% del contenedor */
+    max-height: 600px; /* establece el alto máximo en 400px */
+    margin-right: 3rem;
+    border-radius: 100px;
+}
+
+    
+
+/*display: inline;
+max-width: 700px;
+max-height: 700px;
+margin-right: 3rem;
+border-radius: 100px;*/
+
+#mueble1a{
+    margin: 1rem;
+    margin-bottom: 1rem;
+}
+
+#mueble1d{
+margin: 1rem;
+margin-bottom: 1rem;
+}
+
+#vintage1{
+    margin: 1rem;
+}
+
+#vintage2{
+margin-top: 1rem;
+margin-right: 1rem;
+}
+
+#mueble3a{
+margin-left: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+#mueble2a{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
+
+    #mueble2d{
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        }
+
+#mueble3d{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ayd section{
+    width: 100%; /* establece el ancho del contenedor en el 100% del contenedor padre */
+    height: auto; /* establece la altura automáticamente según las imágenes */
+}
+
+
+
+
+.ayd .hs{
+height: 4rem;
+margin: 0%;
+width: 90%;
+border: none;
+}
+
+.ayd h3{
+    display: inline;
+    font-size: 40px;
+    margin: 0;
+}
+
+.ayd .hantes{
+    float: left;
+    margin-left: 7rem;
+}
+
+.ayd .hdespues{
+    float: right;
+    margin-right: 7rem;
+}
+
+.ayd div{
+    width: 50%;
+    margin-top: 4rem;
+    display: inline-block;
+}
+
+
+
+
+    .ayd .antes{
+        float: left;
+    }
+
+    .ayd .despues{
+        float: right;
+    }
+
+    /*-------------------------------------------------------------------------
+                                    SECTOR
+                                      DE
+                                    CONTACTO
+    ---------------------------------------------------------------------------*/
+
+.contacto{
+    height: auto;
+    min-height: 400px;
+    margin-top: 2rem;
+    text-align: center;
+
+    background-image: url(./imagenes/fondoelegante2.png);
+}
+
+
+.contacto a{
+    display: inline-block;
+}
+
+#fb{
+    float: right;
+}
+
+#wpp{
+    float: left;
+}
