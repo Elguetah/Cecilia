@@ -6,7 +6,7 @@
 body{
     background: 100%;
   
-    background-image: url(/imagenes/fondoelegante.png);
+    background-image: url(./imagenes/fondoelegante.png);
 }
 
 h1{
